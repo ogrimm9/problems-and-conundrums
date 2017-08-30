@@ -10,4 +10,3 @@ void draw (){
   rect(50, 330, 400, 150); //base of house 
   fill( 255,0,15); //color of the roof (red)
   triangle (50, 330, 250, 150, 450, 330);} //roof of house
-  
