@@ -1,11 +1,13 @@
-{setup ();
-background(0);
-size(500,500);
+/*Owen Grimm
+August 30, 2017
+The purpose of this sketch was to show how this code is an example of beautiful code. There are comments clearly explaining what each part of the code is made for, making it beautiful*/
+void setup (){
+  size(500,500); //size of canvas
+  background(255); //color of canvas (white)
 }
-
-{draw();
-line(10, 350, 250, 50);
-}
-//Owen Grimm/*
-//August 29, 2017/*
-//This code is beautiful code because it uses the functions to create a line/*
+void draw (){
+  fill(255, 255,0); //color of the base (yellow)
+  rect(50, 330, 400, 150); //base of house 
+  fill( 255,0,15); //color of the roof (red)
+  triangle (50, 330, 250, 150, 450, 330);} //roof of house
+  
